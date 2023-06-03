@@ -1,0 +1,88 @@
+* {
+    padding:0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: gray;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif;
+}
+.container h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.card {
+    background-color: white;
+    width: 350px;
+    height: 180px;
+    margin: 100px auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 30px;
+}
+#inputer {
+    border: 1.5px solid;
+    margin: 0px 0px 71px 10px;
+}
+span {
+    margin: 0px 220px 91px 0px;
+    position: absolute;
+    font-size: 1.2em;
+}
+#submit {
+    margin:  0px 0px 90px 210px;
+    position: absolute;
+}
+h2 {
+    margin: 0px 215px 0px 0px;
+    position: absolute;
+    font-size: 1.3em;
+}
+label {
+    position: absolute;
+    width: 135px;
+    height: 35px;
+    margin: 18px 0px 0px 5px;
+    font-size: 1em;
+    text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+    .container h1 {
+        margin-left: 0%;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 320px) {
+    .container h1 {
+        margin-left: 0%;
+        text-align: center;
+    }
+    .card {
+        width: 290px;
+    }
+    span {
+        margin: 0px 195px 94px 0px;
+    }
+    #inputer {
+        margin: 0px 0px 71px 30px;
+    }
+    #submit {
+    margin:  0px 0px 89px 230px;
+    }
+    h2 {
+        margin: 0px 189px 0px 0px;
+    }
+    label {
+    margin: 18px 0px 0px 20px;
+    }   
+}
